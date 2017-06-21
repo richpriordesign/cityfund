@@ -12,23 +12,6 @@ body{
 	color:#565A5C;
 }
 
-/**** FUNDS ****/
-
-.bullets{
-	border-radius:50%;
-	color:purple;
-	width:5px;
-	height:5px;
-}
-
-
-.bulleted{
-	width:40px;
-	height:40px;
-	color:orange;
-	
-}
-
 /**** GRID SYSTEM ****/
 
 .container-fluid{
@@ -46,6 +29,13 @@ body{
 /*	margin-top:33%;
 */}
 
+.verti{
+	transform:translate(0px, 20%);
+}
+
+.verti-alt{
+		transform:translate(0px,100%);
+	}
 
 .full-height{
 	height:100%;
@@ -67,19 +57,6 @@ body{
 	padding:0;
 }
 
-.verti{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.xs-nopad{
-	padding-left:0px;
-	padding-right:0px;
-}
-
-
-
 div[itemprop="articleBody"]{
    height:100% !important;
 }
@@ -89,13 +66,16 @@ div[itemprop="articleBody"]{
 		width:85% !important;
 	}
 
-	.no-pad{
-		padding:inherit;
+	.verti{
+		transform:translate(0px,50%);
 	}
 
-	.xs-nopad{
-		padding-left:15px;
-		padding-right:15px;
+	.verti-alt{
+		transform:translate(0px,100%);
+	}
+
+	.no-pad{
+		padding:inherit;
 	}
 }
 
@@ -614,13 +594,13 @@ input[type=number]::-webkit-outer-spin-button {
 */
 
 .card{
-	/*min-width:320px;*/
+	min-width:320px;
 	max-width:100%
 }
 
 .card-top{
 	min-width:100%;
-	margin-top:15px;
+	margin-top:75px;
 	margin-right:0px;
 	background-color:#d9dbff;
 	padding-left:24px;
@@ -651,23 +631,19 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .card-title{
-	padding-top:18px;
-	padding-bottom:18px;
-	font-size:18px;
+	padding-top:24px;
+	padding-bottom:24px;
+	font-size:30px;
 	display:inline-block;
 }
 
 .card-link-txt{
 	padding-left:24px;
-	font-size:16px;
+	font-size:18px;
 	/*line-height:55px;*/
 	line-height:52px;
 	width:100%;
 
-}
-
-.card-master{
-	margin:0 auto;
 }
 
 p.one-link{
@@ -715,7 +691,8 @@ a.card-arrow:focus{
 }
 
 .add-icon{
-	line-height:76px;
+	line-height:100.5px;
+
 	display:inline;
 }
 
@@ -724,28 +701,13 @@ a.card-arrow:focus{
 	margin-right:-3px;
 }
 
-.glyphicon{
-    	width: 24px;
-}
-
-.add-icon{
-	width:24px;
-}
-
-.glyphicon-plus{
-	margin-right:-24px;
-}
-
 @media only screen and (min-width: 768px){
 
 	.card{
-/*		max-width:375px;
-*/	}
+		max-width:375px;
+	}
 
 	.card-title{
-		padding-top:24px;
-		padding-bottom:24px;
-		font-size:30px;
 		display:block;
 	}
 
@@ -754,15 +716,14 @@ a.card-arrow:focus{
 	}
 
 	.card-top{
-		/*min-width:300px;*/	
-		margin-top:25px;	
+		min-width:300px;
 		margin-right:25px;
 		padding-bottom:50px;
 
 	}
 
 	.card-bottom{
-		/*min-width:300px;*/
+		min-width:300px;
 		display:block;
 	}
 
@@ -770,63 +731,9 @@ a.card-arrow:focus{
 		padding-bottom:30px;
 	}
 
-	.card-link-txt{
-		font-size:18px;
-	}
-
 	.add-icon{display:none;}
 
-	.glyphicon{
-    	width: 24px;
-	}
 }
-
-
-
-
-@media only screen and (min-width: 992px){
-	.card-title{
-		font-size:24px;	
-	}
-
-	.card-top{
-		padding-left:18px;
-	}
-
-	.card-link-txt{
-		padding-left:10px;
-		font-size:16px;
-	}
-}
-
-@media only screen and (min-width: 1075px){
-	.card-top{
-		min-width:100%;
-		margin-top:25px;
-		margin-right:0px;
-		background-color:#d9dbff;
-		padding-left:24px;
-		padding-right:0px;
-		padding-bottom:50px;
-	}
-
-	.card-link-txt{
-		padding-left:24px;
-		font-size:18px;
-		/*line-height:55px;*/
-		line-height:52px;
-		width:100%;
-
-	}
-
-	.card-title{
-		padding-top:24px;
-		padding-bottom:24px;
-		font-size:30px;
-		display:inline-block;
-	}
-}
-
 
 /**** NAV PLACEHOLDER ****/
 #nav-placeholder{
@@ -838,13 +745,6 @@ a.card-arrow:focus{
 
 .logo{
 	width:100px;
-	margin-right:25px;
-}
-
-.nav>li>a>img{
-	max-width:100px !important;
-	margin-top:-25px;
-	margin-right:25px;
 }
 
 .navbar{
@@ -913,40 +813,3 @@ a.card-arrow:focus{
 .x-out{
 	margin-top:25px;
 }
-
-
-
-
-/**** FOOTER ****/
-
-.footer-container{
-	background-color:#565A5C;
-	width:100%;
-	padding-top:50px;
-	padding-bottom:25px;
-}
-
-.footer-about{
-	color:#FFF;
-	text-transform:uppercase;
-	font-weight:bold;
-}
-
-.footer-text{
-	color:#FFF;
-	font-size:14px;
-}
-
-footer{
-	position:relative;
-	display:none;
-}
-
-.footer-row{
-	width:100% !important;
-	margin:0 !important;
-}
-
-/*.no-height{
-	height:0 !important;
-}*/
