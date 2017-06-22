@@ -950,3 +950,47 @@ footer{
 /*.no-height{
 	height:0 !important;
 }*/
+
+
+
+/**** JUNE 22ND CHANGES ****/
+
+
+.contact-name{
+	padding-top:10px;
+}
+
+.contact-info{
+	padding-top:0px;
+}
+
+h3.purple{
+	margin-bottom:10px;	
+}
+
+#about{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.about-txt{
+	padding-bottom:25px;
+}
+
+@media only screen and (min-width:768px){
+	h3.purple{
+		margin-bottom:25px;
+	}
+
+	.contact-name{
+		padding-top:30px;
+	}
+
+	.contact-info{
+		padding-top:5px;
+	}
+
+	#about{
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+}
