@@ -29,6 +29,7 @@ body{
 	
 }
 
+
 /**** GRID SYSTEM ****/
 
 .container-fluid{
@@ -676,6 +677,19 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-top:-150px;
 }
 
+#timeline-bkg{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#000;
+	background:url(../img/events/timeline-cover.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:350px;
+	background-position:33% 33%;
+}
+
 /**** SUPPORT ****/
 
 /*.card{
@@ -1068,4 +1082,115 @@ h3.purple{
 		margin-top:25px;
 		margin-bottom:25px;
 	}
+
+	#timeline-bkg{
+		height:400px;
+	}
+}
+
+/**** TIMELINE ****/
+
+.timeline{
+	margin-top:40px;
+}
+
+.timeline-line{
+	border-left:2px solid #000;
+	z-index:2;
+}
+
+.time-bullet{
+	width:40px;
+	height:40px;
+	margin-right:10px;
+	background-color:#FFF;
+	border:5px solid #7D5CC6;
+	border-radius:50%;
+	float:left;
+	margin-left:-21px;
+	transition: ease .5s;
+
+}
+
+.time-bullet:hover{
+	background-color:#7D5CC6;
+}
+
+.time-bullet-child{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+	background-color:#FFF;
+	border:5px solid #7D5CC6;
+	border-radius:50%;
+	float:left;
+	margin-left:-16px;
+	z-index:2;
+	transition: ease .2s;
+}
+
+.time-bullet-child:hover{
+	background-color:#7D5CC6;
+}
+
+
+.timeline-txt{
+	padding-top:5px;
+	padding-left:0px;
+	padding-bottom:0px;
+	font-size:24px;
+	margin-bottom:30px;
+}
+
+.timeline-txt-child{
+	padding-top:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	font-size:24px;
+	margin-bottom:30px;
+}
+
+.timeline-children{
+	display:none;
+}
+
+.timeline-link,
+.timeline-link-child{
+	color:#565A5C;
+	text-decoration:none;
+}
+
+/*.timeline-link:hover,
+.timeline-link:active,
+.timeline-link:focus,
+.timeline-link-child:hover,
+.timeline-link-child:active,
+.timeline-link-child:focus{
+	color:#7D5CC6;
+}*/
+
+.timeline-info-txt{
+	display:none;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.show{
+	display:block;
+}
+
+.active-child{
+	background-color:#7D5CC6;
+
+}
+
+.timeline-date{
+	padding-bottom:25px;
+}
+
+br{
+	display:block;
+	margin-top:25px;
+	line-height:25px;
+	content:" ";
 }
