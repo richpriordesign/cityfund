@@ -113,14 +113,6 @@ h3{
 	font-weight:400;
 }
 
-h4.awarded{
-	margin-bottom: 25px;
-}
-
-br.award-titles{
-	margin-top: 0px;
-}
-
 p{
 	margin:0;
 	padding:0 0 25px 0;
@@ -208,7 +200,7 @@ h1.m-btm{
 
 .dropquote{
 	width:60%;
-	margin:0px 0px 30px 15px;
+	margin:50px 0px 30px 15px;
 	padding-left:10px;
 	font-size:2rem;
 	float:right;
@@ -217,7 +209,7 @@ h1.m-btm{
 
 .dropquote{
 	width:100%;
-	margin:0px 0px 25px 15px;
+	margin:25px 0px 25px 15px;
 	padding-left:10px;
 	font-size:2rem;
 	font-weight:500;
@@ -229,6 +221,60 @@ h1.m-btm{
 	font-weight:300;
 	padding-bottom:25px;
 	padding-top:10px;
+}
+
+
+/**** LANDING ****/
+	#landing-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background-color:rgba(0,0,0,.6);
+		background:url(../img/landing.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#about{
+		width:100%;
+		height:100%;
+		background-color:#FFF;
+	}
+
+	.about-txt{
+		max-width:85%;
+		margin:0 auto;
+		padding-top:25px;	
+	}
+
+	#support-bkg{
+		width:100%;
+		height:100%;
+		background-color:#7D5CC6;
+		background:url(../img/support.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#connect{
+		width:100%;
+		height:100%;
+		background-color:#FFF;
+	}
+
+/**** ABOUT ****/
+
+#board-bkg{
+	width:100%;
+	min-height:500px;
+	padding:50px 10px 75px 5px;
+	background-color:#FFF;
+	background:url(../img/about/board/steve-mobile.jpg);
+	background-position:50% 20%;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 /**** COLOR OVERRIDES****/
@@ -366,6 +412,8 @@ a.purple:hover{
 	margin-top:50px;
 }
 
+
+
 /**** LINKS ****/
 
 a{
@@ -406,6 +454,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 /**** IMAGES ****/
 
+/*.article-img{
+	padding-bottom:25px;
+}*/
+
 .profile{
 	width:150px;
 	height:150px;
@@ -417,63 +469,6 @@ input[type=number]::-webkit-outer-spin-button {
 	border:4px solid wheat;
 	margin:0 auto 25px;
 	display:block;
-}
-
-
-/**** SECTIONS ****/
-
-
-/**** LANDING ****/
-	#landing-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background-color:rgba(0,0,0,.6);
-		background:url(../img/landing.jpg);
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#about{
-		width:100%;
-		height:100%;
-		background-color:#FFF;
-	}
-
-	.about-txt{
-		max-width:85%;
-		margin:0 auto;
-		padding-top:25px;	
-	}
-
-	#support-bkg{
-		width:100%;
-		height:100%;
-		background-color:#7D5CC6;
-		background:url(../img/support.jpg);
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#connect{
-		width:100%;
-		height:100%;
-		background-color:#FFF;
-	}
-
-/**** ABOUT ****/
-
-#board-bkg{
-	width:100%;
-	min-height:500px;
-	padding:50px 10px 75px 5px;
-	background-color:#FFF;
-	background:url(../img/about/board/steve-mobile.jpg);
-	background-position:50% 20%;
-	background-size:cover;
-	background-repeat:no-repeat;
 }
 
 /**** SPECIAL PROJECTS ****/
@@ -520,7 +515,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/newera-cover2.jpg);
+	background:url(../img/projects/newera-cover.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -532,11 +527,10 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/rotc-cover2.jpg);
+	background:url(../img/projects/rotc-cover.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
-	
 }
 
 
@@ -565,32 +559,6 @@ input[type=number]::-webkit-outer-spin-button {
 	background-size:cover;
 	background-repeat:no-repeat;
 	margin-top:-150px;
-}
-
-#professorships-bkg{
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0;
-	background-color:#000;
-/*	background-color:rgba(0,0,0,.6);
-*/	background:url(../img/projects/maurizio-trevisan2.jpg);
-	background-position:50% 20%;
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-#debeer-bkg{
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0;
-	background-color:#000;
-/*	background-color:rgba(0,0,0,.6);
-*/	background:url(../img/projects/debeer.jpg);
-	background-position:50% 20%;
-	background-size:cover;
-	background-repeat:no-repeat;
 }
 
 #timeline-bkg{
@@ -741,33 +709,6 @@ a.card-arrow:focus{
 	margin-right:-24px;
 }
 
-@media only screen and (min-width: 1075px){
-	.card-top{
-		min-width:100%;
-		margin-top:25px;
-		margin-right:0px;
-		background-color:#d9dbff;
-		padding-left:24px;
-		padding-right:0px;
-		padding-bottom:50px;
-	}
-
-	.card-link-txt{
-		padding-left:24px;
-		font-size:18px;
-		/*line-height:55px;*/
-		line-height:52px;
-		width:100%;
-
-	}
-
-	.card-title{
-		padding-top:24px;
-		padding-bottom:24px;
-		font-size:30px;
-		display:inline-block;
-	}
-}
 
 
 /**** NAV PLACEHOLDER ****/
@@ -918,6 +859,8 @@ h3.purple{
 	padding-bottom:25px;
 }
 
+
+
 /**** TIMELINE ****/
 
 .timeline{
@@ -1026,8 +969,9 @@ br{
 }
 
 
+
+
 @media only screen and (min-width: 768px){
-	/**** GRID ****/
 	.row{
 		width:85% !important;
 	}
@@ -1040,62 +984,66 @@ br{
 		padding-left:15px;
 		padding-right:15px;
 	}
+}
 
-	/**** TYPOGRAPHY ****/
-	h1{
-		font-size:48px;
-	}
+@media only screen and (min-width:768px){
 
-	h2{
-		font-size:48px;
-	}
+h1{
+	font-size:48px;
+}
 
-	h3{
+h2{
+	font-size:48px;
+}
+
+h3{
+	font-size:24px;
+	padding-bottom:25px;
+	line-height:30px;
+}
+
+p{
+	font-size:16px;
+	font-weight:400;
+}
+
+.contact-txt{
+	padding-right:40px;
+}
+
+.dropquote{
+	width:100%;
+	margin:25px 0px 25px 15px;
+	padding-left:10px;
+	font-size:2rem;
+	font-weight:500;
+	border-left:solid #7D5CC6 6px;
+}
+}
+
+@media only screen and (min-width:768px){
+	.btn p{
 		font-size:24px;
-		padding-bottom:25px;
-		line-height:30px;
+	}
+	.btn p.donate-text{
+		font-size:36px;
 	}
 
-	p{
-		font-size:16px;
-		font-weight:400;
-	}
-
-	.contact-txt{
-		padding-right:40px;
-	}
-
-	.dropquote{
+	.donate-num{
 		width:100%;
-		margin:0px 0px 25px 15px;
-		padding-left:10px;
-		font-size:2rem;
-		font-weight:500;
-		border-left:solid #7D5CC6 6px;
+		min-width:150px;
 	}
+}
 
-	h3.purple{
-		margin-bottom:25px;
+@media only screen and (min-width:768px){
+	input{
+		font-size:36px;
+		width:75%;
 	}
+}
 
-	.contact-name{
-		padding-top:30px;
-	}
+@media only screen and (min-width: 768px){
 
-	.contact-info{
-		padding-top:5px;
-	}
-
-	#about{
-		margin-top:25px;
-		margin-bottom:25px;
-	}
-
-	#timeline-bkg{
-		height:400px;
-	}
-
-	/**** CARDS ****/
 	.card{
 /*		max-width:375px;
 */	}
@@ -1137,51 +1085,75 @@ br{
 	.glyphicon{
     	width: 24px;
 	}
+}
 
-	/**** BUTTONS ****/
-	.btn p{
-		font-size:24px;
+
+
+@media only screen and (min-width:768px){
+	h3.purple{
+		margin-bottom:25px;
 	}
 
-	.btn p.donate-text{
-		font-size:36px;
+	.contact-name{
+		padding-top:30px;
 	}
 
-	.donate-num{
-		width:100%;
-		min-width:150px;
+	.contact-info{
+		padding-top:5px;
 	}
 
-	/**** FORMS ****/
-	input{
-		font-size:36px;
-		width:75%;
+	#about{
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+
+	#timeline-bkg{
+		height:400px;
+	}
+}
+
+
+
+@media only screen and (min-width:992px){
+	.mobi-only{
+		display:none;
 	}
 }
 
 @media only screen and (min-width:992px){
-	/**** GRID ****/
-	.mobi-only{
-		display:none;
-	}
-
-	/**** TYPOGRAPHY ****/
 	.dropquote{
 		width:60%;
-		margin:30px 0px 30px 15px;
+		margin:50px 0px 30px 15px;
 		padding-left:10px;
 		font-size:2.5rem;
 		font-weight:500;
 		float:right;
 		border-left:solid #7D5CC6 6px;
 	}
+}
 
-	/**** IMAGES ****/
+
+@media only screen and (min-width:992px){
 	.profile{
 		display:none;
 	}
+}
+/**** SECTIONS ****/
 
-	/**** CARDS ****/
+
+@media only screen and (min-width:992px){
+	#board-bkg{
+		padding: 50px 25px 75px 5px;
+		background:url(../img/about/board/stevewide.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+
+	}
+}
+
+
+@media only screen and (min-width: 992px){
 	.card-title{
 		font-size:24px;	
 	}
@@ -1194,20 +1166,44 @@ br{
 		padding-left:10px;
 		font-size:16px;
 	}
+}
 
-	/**** ABOUT ****/
-	#board-bkg{
-		padding: 50px 25px 75px 5px;
-		background:url(../img/about/board/stevewide.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
+
+
+@media only screen and (min-width: 1075px){
+	.card-top{
+		min-width:100%;
+		margin-top:25px;
+		margin-right:0px;
+		background-color:#d9dbff;
+		padding-left:24px;
+		padding-right:0px;
+		padding-bottom:50px;
+	}
+
+	.card-link-txt{
+		padding-left:24px;
+		font-size:18px;
+		/*line-height:55px;*/
+		line-height:52px;
+		width:100%;
+
+	}
+
+	.card-title{
+		padding-top:24px;
+		padding-bottom:24px;
+		font-size:30px;
+		display:inline-block;
 	}
 }
 
+
+
 @media only screen and (min-width:1200px){
-	/**** TYPOGRAPHY ****/
 	h1{
 		font-size:60px;
 	}
 }
+
+

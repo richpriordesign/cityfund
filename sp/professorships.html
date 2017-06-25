@@ -22,15 +22,12 @@
 
 <body>
 	<div class="container-fluid">
-		<div id="nav-placeholder" class="bkg-purple">
-			<h3 class="center alt-color">Navbar</h3>
-		</div>
-
-		<div id="lamda-bkg">
-			<div class="row center-block">
+		
+		<div id="professorships-bkg">
+			<div class="row center-block verti">
 				<div class="col-sm-12">
-					<div class="row verti-alt">
-						<div class ="col-md-7 col-sm-12 col-xs-12">
+					<div class="row">
+						<div class ="col-md-6 col-sm-6 col-xs-12">
 							<h1 class="alt-color top-margin caps"> PROFESSORSHIPS</h1>
 							<h3 class="alt-color"> Professorships, Endowed Chairs &amp; Faculty Awards
 </h3>
@@ -57,60 +54,63 @@
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<p class="m-top light">
-					&ldquo;An endowed professorship is the highest academic award that the College can bestow on a faculty member. It lives in perpetuity and is thus both an honor to the named holder of the appointment and also an enduring tribute to the donor who establishes it.
-					<span class="dropquote">My scholarship has allowed me to live on campus, where I can completely focus on being the best student that I can be around the clock.</span>
+					An endowed professorship is the highest academic award that the College can bestow on a faculty member. It lives in perpetuity and is thus both an honor to the named holder of the appointment and also an enduring tribute to the donor who establishes it.
+					
 				</p>
 
 				<p class="light">
+					<span class="dropquote">My scholarship has allowed me to live on campus, where I can completely focus on being the best student that I can be around the clock.</span>
 					&ldquo;Endowed professorships and chairs represent a critical source of support for attracting new outstanding faculty members to City College, and for honoring our current exceptional faculty. They play an integral part in fulfilling our core mission of access to excellence.&rdquo; &mdash;Dr. Maurizio Trevisan, Provost
 				</p>
 
-				<h4 class="purple">
+				<h4 class="purple awarded">
 					AWARDED THROUGH THE CITY COLLEGE FUND, THESE INITIATIVES INCLUDE:
 				</h4>
 
 				<p class="light">
-					<span class="blue">THE EXCELLENCE IN TEACHING AWARD</span> <br>Established by Emeritus Professor Alfred Weiss'46 and professors Julie Rosen, Jim Shields and Norman Shapiro.
+					<span class="purple">THE EXCELLENCE IN TEACHING AWARD</span> <br class="award-titles">Established by Emeritus Professor Alfred Weiss'46 and professors Julie Rosen, Jim Shields and Norman Shapiro.
 				</p>
 
 				<p class="light">
-					<span class="blue">THE HAROLD SHAMES PROFESSORSHIP IN BIOMEDICAL ENGINEERING</span> <br>Established by Harold Shames'44
+					<span class="purple">THE HAROLD SHAMES PROFESSORSHIP IN BIOMEDICAL ENGINEERING</span> <br class="award-titles">Established by Harold Shames'44
 				</p>
 
 				<p class="light">
-					<span class="blue">HAROLD KOBLINER ENDOWED CHAIR IN EDUCATION</span> <br>Established by Dr. Harold Kobliner '50
+					<span class="purple">HAROLD KOBLINER ENDOWED CHAIR IN EDUCATION</span> <br class="award-titles">Established by Dr. Harold Kobliner '50
 				</p>
 
 				<p class="light">
-					<span class="blue">THE DEAN JAMES PEACE PROFESSORSHIP THE ANNA AND IRVING BRODSKY CLINICAL PROFESSORSHIP</span> <br>Established by Bert Brodsky '64
+					<span class="purple">THE DEAN JAMES PEACE PROFESSORSHIP THE ANNA AND IRVING BRODSKY CLINICAL PROFESSORSHIP</span> <br class="award-titles">Established by Bert Brodsky '64
 				</p>
 
 				<p class="light">
-					<span class="blue">THE POPE CHAIR IN ENGINEERING RESEARCH</span> <br>Established by Michael Pope '44
+					<span class="purple">THE POPE CHAIR IN ENGINEERING RESEARCH</span> <br class="award-titles">Established by Michael Pope '44
 				</p>
 
 				<p class="light">
-					<span class="blue">THE CLASS OF 1964 PROFESSORSHIP</span> <br>Established by The Class of 1964
+					<span class="purple">THE CLASS OF 1964 PROFESSORSHIP</span> <br class="award-titles">Established by The Class of 1964
 				</p>
 
 				<p class="light">
-					<span class="blue">THE DANIEL BERG '50 &amp; FRANCES H. BERG PROFESSORSHIP</span>
+					<span class="purple">THE DANIEL BERG '50 &amp; FRANCES H. BERG PROFESSORSHIP</span>
 				</p>
 
 				<p class="light">
-					<span class="blue">THE K.D. IRANI VISITING PROFESSORSHIP</span>
+					<span class="purple">THE K.D. IRANI VISITING PROFESSORSHIP</span>
 				</p>
 
 				<p class="light">
-					<span class="blue">THE DR. LOUIS CURTMAN PROFESSORSHIP IN BIOLOGY</span>
+					<span class="purple">THE DR. LOUIS CURTMAN PROFESSORSHIP IN BIOLOGY</span>
 				</p>
+
+				<img src="../img/projects/bert-brodsky2.jpg" class="img-responsive" />
+				<p class="caption">Bert Brodsky '64</p>
 
 				<p class="light">
 					&ldquo;Without the free education I received at City College, I never would have been able to get the college education that enabled me to become the successful person I am today. Through my success I have been able to fulfill my goal to help those less fortunate. I do this through my association with the Alzheimer's Foundation, Gurwin Jewish Geriatric Foundation, UJA and The City College Fund.&rdquo; &mdash;Bert Brodsky '64
 				</p>
 
-				<img src="../img/projects/lamda1.jpg" class="img-responsive" />
-				<p class="caption">Bert Brodsky '64</p>
+				
 
 
 			</div>
@@ -119,6 +119,7 @@
 		</div>
 		<!-- END ROW -->
 
+		
 		<div id="donate" class="row center-block m-top">
 			<div class="col-sm-12">
 				<h2 class="center purple caps">Make A Difference</h2>
@@ -151,20 +152,91 @@
 					</div>
 				</div>
 				<!-- END NESTED ROW -->
-			</div>
-		</div>
-		<!-- END ROW -->
-		<div id="donate">
-				<form>
-					<input type="number" class="center-block donate-form" placeholder="Other Amount">
+
+			
+
+			  <form>
+					<input name="amount" type="number" class="center-block donate-form" placeholder="Other Amount">
+					<select name="specialprojects" form="projectform" style="margin-top:35px">
+						<option value="baseball">Baseball</option>
+						  <option value="brooklyn">Brooklyn Tech/CCNY</option>
+						  <option value="bronx">Bronx Science/CCNY</option>
+						  <option value="levine">The Louis Levine-Gabriella de Beer Lecture in Genetics</option>
+						  <option value="lamda">Lamda</option>
+						  <option value="newera">New Era Scholarship</option>
+						  <option value="professorships">Professorships</option>
+						  <option value="rotc">ROTC</option>
+						  <option value="stuyvesant">Stuyvesant</option>
+						  <option value="zahn">Zahn Innovation Center</option>
+						</select>
+					<!-- END ROW -->
+		
 					<div class="btn-center donate">Donate</div>
-				</form>
+				
+	
+				</form> 
+
+			</div>
+
 		</div>
+
 
 
 
 	</div>
 	<!-- END CONTAINER -->
+
+	<footer>
+		<div class="footer-container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="footer-logo">Logo</div>
+				</div>
+				<div class="col-sm-6">
+
+					<p class="footer-about">
+						About
+					</p>
+		
+					<p class="footer-text">
+						The City College Fund is a tax-exempt 501c(3)
+						non-profit fundraising organization, established
+						in 1946 to support the City College of New York
+						in its mission to provide access and excellence
+						in higher education, particularly to students
+						who might not otherwise be able to afford to
+						go to college. Gifts to The City College Fund
+						directly benefit City College's extraordinary
+						students,renowned faculty, innovative
+						programs and schools.
+					</p>
+				</div>
+
+				<div class="col-sm-3">
+					<p class="footer-about">
+						Contact
+					</p>
+		
+					<p class="footer-text">
+						Address
+					</p>
+					<p class="footer-text">
+						160 Convent Ave Shepard
+						Hall, Room 166
+						New York, NY 10031
+					</p>
+
+					<p class="footer-text">
+						Phone
+						+1 212 650 6525
+						+1 212 491 2622
+						E-mail
+						admin@ccnyfund.org
+					</p>
+				</div>
+			</div>
+		</div>
+		</footer>
 
 
 	<!-- JAVASCRIPT -->

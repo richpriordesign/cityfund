@@ -37,7 +37,7 @@ if($_POST["submit"]) {
 
     <?=$thankYou ?>
 
-    <form method="post" action="donate.php">
+    <form method="post" action="">
 	<input name="amount" type="number" class="center-block donate-form" placeholder="Other Amount">
 	<select name="specialprojects" form="projectform" style="margin-top:35px">
 		<option value="baseball">Baseball</option>
