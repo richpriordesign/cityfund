@@ -231,6 +231,13 @@ h1.m-btm{
 	padding-top:10px;
 }
 
+.hero{
+	font-size:12px;
+	font-weight:300;
+	padding-top:10px;
+	padding-bottom:0px;
+}
+
 /**** COLOR OVERRIDES****/
 
 .bkg-purple{
@@ -1030,6 +1037,9 @@ br{
 	/**** GRID ****/
 	.row{
 		width:85% !important;
+	}
+	.nested-row{
+		width:100% !important;
 	}
 
 	.no-pad{
