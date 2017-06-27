@@ -1,3 +1,16 @@
+****IMPORTANT****
+Create just one form with the Annual Funds. I'm going to try and program in Joomla a form that loads in every page so we don't have to code it 30 times. If I'm wrong then we'll do it, but lets hold of on that
+****END IMPORTANT NOTE****
+
+
+***ANOTHER IMPORTANT NOTE***
+You need to be consistent with your naming. You have "genetics.html" but reference the photos as debeer. You need to be consistent and stick to one. I fixed this so don't worry about it, but keep in mind for future 
+****
+
+**** ONE LAST IMPORTANT NOTE ****
+Unless you're writing JavaScript code do not type file names either html, css or images as camel case. Only lower case. Example of camel case: newEra.html. I fixed this
+****
+
 copy buttons and make a single button that says "donate"
 
 comment out the original buttons that have specific text for each on all pages

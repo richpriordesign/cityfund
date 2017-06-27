@@ -162,6 +162,10 @@ h1.m-btm{
 	text-shadow:no-shadow;
 }
 
+.home-text{
+	text-shadow:1px 1px 55px rgba(0,0,0,0.9);
+}
+
 .caps{
 	text-transform:uppercase;
 }
@@ -317,8 +321,8 @@ a.purple:hover{
 }
 
 .btn:active{
-	margin-top:1px;
-	margin-left:1px;
+	/*margin-top:1px;
+	margin-left:1px;*/
 	background-color:#5f4094;
 	color:#FFF;
 }
@@ -333,8 +337,8 @@ a.purple:hover{
 }
 
 .btn-green:active{
-	margin-top:1px;
-	margin-left:1px;
+	/*margin-top:1px;
+	margin-left:1px;*/
 	background-color:#6ea600;
 	color:#FFF;
 }
@@ -428,6 +432,22 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
+select{
+	width:100%;
+	max-width:550px;
+	border:1px solid #7D5CC6;
+	padding:5px;
+	font-size:18px;
+	line-height:21px;
+	background-color:#FFF;
+}
+
+option{
+	width:100%;
+	padding:5px;
+	width:100%;
+}
+
 
 /**** IMAGES ****/
 
@@ -444,6 +464,85 @@ input[type=number]::-webkit-outer-spin-button {
 	display:block;
 }
 
+
+.rotc-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/rotc-pro.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+.bxscience-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/bxscience-pro.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+
+.debeer-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/debeer-pro.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+.brooklyn-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/brooklyntech-profile.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+.newera-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/newera-profile.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+.professorships-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/projects/professorships-profile.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
 
 /**** SECTIONS ****/
 
@@ -505,6 +604,21 @@ input[type=number]::-webkit-outer-spin-button {
 	background-repeat:no-repeat;
 }
 
+
+
+#waystogive-bkg{
+	width:100%;
+	height:100%;
+	max-height:600px;
+	margin-bottom:25px;
+	padding:50px 10px 75px 5px;
+	background-color:#FFF;
+	background:url(../img/waystogive-cover.jpg);
+	background-position:50% 50%;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
 /**** SPECIAL PROJECTS ****/
 #baseball-bkg{
 	width:100%;
@@ -524,7 +638,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/brooklyntech-cover.jpg);
+	background:url(../img/projects/brooklyntech-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -537,7 +651,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/bxscience-cover.jpg);
+	background:url(../img/projects/bxscience-mobile.jpg);
 	background-position:70% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -549,7 +663,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/newera-cover2.jpg);
+	background:url(../img/projects/newera-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -561,7 +675,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-	background:url(../img/projects/rotc-cover2.jpg);
+	background:url(../img/projects/rotc-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -603,7 +717,7 @@ input[type=number]::-webkit-outer-spin-button {
 	padding:0;
 	background-color:#000;
 /*	background-color:rgba(0,0,0,.6);
-*/	background:url(../img/projects/maurizio-trevisan2.jpg);
+*/	background:url(../img/projects/professorships-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -615,8 +729,7 @@ input[type=number]::-webkit-outer-spin-button {
 	margin:0;
 	padding:0;
 	background-color:#000;
-/*	background-color:rgba(0,0,0,.6);
-*/	background:url(../img/projects/debeer.jpg);
+	background:url(../img/projects/debeer-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -689,6 +802,7 @@ input[type=number]::-webkit-outer-spin-button {
 	padding-bottom:18px;
 	font-size:18px;
 	display:inline-block;
+	font-weight:700;
 }
 
 .card-link-txt{
@@ -1134,6 +1248,115 @@ br{
 	padding-top:10px;
 	}
 
+	/**** IMAGES ****/
+	#rotc-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/rotc-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#rotc-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/rotc-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#bxscience-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/bxscience-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#debeer-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/debeer.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#brooklyntech-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/brooklyntech-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#newera-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/newera-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#professorships-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/maurizio-trevisan2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+
+
+	.rotc-profile{
+		display:none;
+	}
+
+	.bxscience-profile{
+		display:none;
+	}
+
+	.debeer-profile{
+		display:none;
+	}
+
+	.brooklyn-profile{
+		display:none;
+	}
+
+	.newera-profile{
+		display:none;
+	}
+
+	.professorships-profile{
+		display:none;
+	}
+
+
 	/**** CARDS ****/
 	.card{
 /*		max-width:375px;
@@ -1249,6 +1472,7 @@ br{
 		background-size:cover;
 		background-repeat:no-repeat;
 	}
+	
 }
 
 @media only screen and (min-width:1200px){
