@@ -139,6 +139,15 @@ h1.m-btm{
 .light{
 	font-weight:300;
 }
+.pre-instructions{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.instructions{
+	padding-left: 20px;
+	display: block;
+}
 
 .alt-color{
 	color:#FFF;
@@ -155,6 +164,10 @@ h1.m-btm{
 
 .caps{
 	text-transform:uppercase;
+}
+
+.subtitle{
+	font-weight: normal;
 }
 
 
@@ -229,6 +242,11 @@ h1.m-btm{
 	font-weight:300;
 	padding-bottom:25px;
 	padding-top:10px;
+}
+
+.gifts{
+	padding-bottom:0px;
+	padding-top:0px;
 }
 
 .hero{
@@ -470,6 +488,10 @@ input[type=number]::-webkit-outer-spin-button {
 		background-color:#FFF;
 	}
 
+	.shames{
+		max-width: 50%;
+	}
+
 /**** ABOUT ****/
 
 #board-bkg{
@@ -516,7 +538,7 @@ input[type=number]::-webkit-outer-spin-button {
 	padding:0;
 	background-color:#000;
 	background:url(../img/projects/bxscience-cover.jpg);
-	background-position:50% 20%;
+	background-position:70% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1105,6 +1127,13 @@ br{
 		height:400px;
 	}
 
+	.caption{
+	font-size:12px;
+	font-weight:300;
+	padding-bottom:25px;
+	padding-top:10px;
+	}
+
 	/**** CARDS ****/
 	.card{
 /*		max-width:375px;
@@ -1186,6 +1215,13 @@ br{
 		border-left:solid #7D5CC6 6px;
 	}
 
+	.caption{
+	font-size:12px;
+	font-weight:300;
+	padding-bottom:25px;
+	padding-top:10px;
+	}
+
 	/**** IMAGES ****/
 	.profile{
 		display:none;
@@ -1219,5 +1255,12 @@ br{
 	/**** TYPOGRAPHY ****/
 	h1{
 		font-size:60px;
+	}
+
+	.caption{
+	font-size:12px;
+	font-weight:300;
+	padding-bottom:25px;
+	padding-top:10px;
 	}
 }
