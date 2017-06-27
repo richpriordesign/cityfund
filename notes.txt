@@ -1,0 +1,37 @@
+copy buttons and make a single button that says "donate"
+
+comment out the original buttons that have specific text for each on all pages
+
+make all emails links--- mail to:
+example is on the staff page
+
+***YO TEST THIS CODE ONCE BEFORE PUTTIGN IN ON ONE THOUSAND PAGES***
+<a href="mailto:email@gmail.com">Text</a> 
+
+====
+
+Planned Giving
+
+Put images in grid next to text
+
+====
+
+Memorial Gifts
+
+Get rid of image
+
+====
+
+President's Fund For Excellent
+
+Use this code for apostrophe:
+&#39; (Do this for other display)
+
+sub-head- break at "The President's fund..."
+see if looks weird on mobile... if so show on desktop, hide on mobile
+
+====
+
+
+
+====
