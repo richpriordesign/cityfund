@@ -772,16 +772,6 @@ option{
 
 /**** SUPPORT ****/
 
-/*.card{
-	margin-top:75px;
-	margin-bottom:50px;
-	margin-right:25px;
-	background-color:lavender;
-	padding-left:24px;
-	min-height:250px;
-}
-*/
-
 .card{
 	/*min-width:320px;*/
 	max-width:100%
@@ -920,6 +910,11 @@ a.card-arrow:focus{
 	margin-right:25px;
 }
 
+a.logo{
+	margin:0 auto;
+	z-index:2000;
+}
+
 .nav>li>a>img{
 	max-width:100px !important;
 	margin-top:-25px;
@@ -955,16 +950,46 @@ a.card-arrow:focus{
 	background-color:#9093CE;
 }
 
-.full-width.dropdown {
-    position: static;
+.nav > li.dropdown.open { position: static; }
+.nav > li.dropdown.open .dropdown-menu {display:table; width: 100%; text-align: center; left:0; right:0; }
+.dropdown-menu>li { display: block; }
+
+.nav > li.dropdown.open .dropdown-menu{
+	background-color:#9093CE;
+	border:0;
+	z-index:2;
 }
-.full-width.dropdown > .dropdown-menu {
-    left: 0;
-    right: 0;
-    position: absolute;
+
+.navbar-nav li a{
+	font-size:21px;
+	color:#FFF;
+	font-weight:700;
+	text-align:left;
 }
-.full-width.dropdown > .dropdown-menu > li > a {
-   white-space: normal; 
+
+.dropdown-menu li a{
+	padding:15px;
+}
+
+.navbar-nav li a:hover, .nav > li > a:focus, .nav > li > a:hover{
+	color:#FFF;
+	font-weight:700;
+	background-color:#7D5CC6;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	color:#FFF;
+	background-color:#7D5CC6;
+}
+
+.dropdown li a:active,
+.dropdown li a:focus{
+	background-color:#7AB800;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+		background-color:#7AB800;
+
 }
 
 /**** MOBILE NAVBAR ****/
@@ -1247,6 +1272,18 @@ br{
 	padding-top:10px;
 	}
 
+	/**** NAVIGATION ****/
+	.navbar-nav li a{
+		font-size:24px;
+		color:#FFF;
+		font-weight:700;
+		text-align:center;
+	}
+
+	a.logo{
+		margin-right:25px;
+	}
+
 	/**** IMAGES ****/
 	#rotc-bkg{
 		width:100%;
@@ -1377,6 +1414,7 @@ br{
 
 
 	/**** CARDS ****/
+	/**** CARDS ****/
 	.card{
 /*		max-width:375px;
 */	}
@@ -1400,7 +1438,7 @@ br{
 
 	}
 
-	.card-bottom{IMAGES
+	.card-bottom{
 		/*min-width:300px;*/
 		display:block;
 	}
