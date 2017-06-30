@@ -68,6 +68,10 @@ body{
 	padding:0;
 }
 
+.no-pad-bottom{
+	padding-bottom:0;
+}
+
 .never-pad{
 	padding:0;
 }
@@ -1058,6 +1062,10 @@ a.logo{
 
 }
 
+.mini-menu{
+	display:none;
+}
+
 /**** MOBILE NAVBAR ****/
 .navbar-toggle .icon-bar{
 	width:33px;
@@ -1273,6 +1281,10 @@ br{
 		padding-right:15px;
 	}
 
+	.no-pad-bottom{
+		padding-bottom:inherit;
+	}
+
 	/**** TYPOGRAPHY ****/
 	h1{
 		font-size:60px;
@@ -1352,6 +1364,14 @@ br{
 
 	a.logo{
 		margin-right:25px;
+	}
+
+	.mini-menu{
+	display:inline-block;
+	}
+
+	#sec1, #sec2, #sec3{
+		padding-top: 25px;
 	}
 
 	/**** IMAGES ****/
