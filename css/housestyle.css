@@ -189,6 +189,10 @@ h1.m-btm{
 	margin-top:25px;
 }
 
+.m-top2{
+	margin-top:0px;
+}
+
 .no-shadow{
 	text-shadow:no-shadow;
 }
@@ -1386,6 +1390,10 @@ br{
 		padding-top: 25px;
 	}
 
+	.m-top2{
+		margin-top:25px;
+	}
+
 
 	/**** TYPOGRAPHY ****/
 	h1{
@@ -1478,6 +1486,7 @@ br{
 	.m-top1{
 		margin-top:25px;
 	}
+
 
 	/**** NAVIGATION ****/
 	.navbar-nav li a{
