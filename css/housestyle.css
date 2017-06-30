@@ -1263,6 +1263,10 @@ br{
 }
 
 
+@media only screen and (min-width:480px and max-width:767px){
+
+}
+
 @media only screen and (min-width: 768px){
 	/**** GRID ****/
 	.row{
