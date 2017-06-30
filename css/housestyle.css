@@ -1378,6 +1378,15 @@ br{
 		text-align: left;
 	}
 
+	#sec1, #sec2, #sec3{
+		padding-top: 25px;
+	}
+
+	#sec4, #sec5, #sec6, #sec7, #sec8{
+		padding-top: 25px;
+	}
+
+
 	/**** TYPOGRAPHY ****/
 	h1{
 		font-size:60px;
@@ -1456,6 +1465,18 @@ br{
 
 	.hero-image-text1{
 	padding-bottom:0px;
+	}
+
+	.m-top{
+		margin-top:25px;
+	}
+
+	.m-top-funds{
+		margin-top:50px;
+	}
+
+	.m-top1{
+		margin-top:25px;
 	}
 
 	/**** NAVIGATION ****/
