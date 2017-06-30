@@ -131,6 +131,14 @@ h4.awarded{
 	margin-bottom: 25px;
 }
 
+#sec1, #sec2, #sec3{
+		padding-top: 25px;
+	}
+
+#sec4, #sec5, #sec6, #sec7, #sec8{
+	padding-top: 25px;
+}
+
 br.award-titles{
 	margin-top: 0px;
 }
@@ -170,7 +178,15 @@ h1.m-btm{
 }
 
 .m-top{
+	margin-top:25px;
+}
+
+.m-top-funds{
 	margin-top:50px;
+}
+
+.m-top1{
+	margin-top:25px;
 }
 
 .no-shadow{
@@ -298,7 +314,11 @@ h1.m-btm{
 }
 
 .hero-image-text{
-	padding-bottom: 20px;
+	padding-bottom:20px;
+}
+
+.hero-image-text1{
+	padding-bottom:20px;
 }
 
 p.mini-menu-items{
@@ -1434,6 +1454,10 @@ br{
 		display:block;
 	}
 
+	.hero-image-text1{
+	padding-bottom:0px;
+	}
+
 	/**** NAVIGATION ****/
 	.navbar-nav li a{
 		font-size:24px;
@@ -1736,6 +1760,14 @@ br{
 		font-size:16px;
 	}
 
+	.m-top{
+		margin-top:50px;
+	}
+
+	.m-top1{
+		margin-top:25px;
+	}
+
 	/**** ABOUT ****/
 	#board-bkg{
 		padding: 50px 25px 75px 5px;
@@ -1749,10 +1781,6 @@ br{
 	
 	.mini-menu{
 	display:inline-block;
-	}
-
-	#sec1, #sec2, #sec3{
-		padding-top: 25px;
 	}
 
 	/**** FORMS ****/

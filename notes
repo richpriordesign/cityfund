@@ -14,3 +14,16 @@ tighten spaces between headline and subtext
 
 ALL
 tighten spaces between donate and stuff around
+
+
+
+on all only text pages--- change m-top to m-top-funds for titles
+
+text under titles add as m-top1
+
+change anything above h4 add no-pad-bottom
+add anything below h4 m-top1
+
+if h4's don't have id= sec1...etc add one
+
+before forms on bottom add no-pad-bottom on last paragraph
