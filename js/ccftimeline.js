@@ -15,12 +15,10 @@ $(document).ready(function(){
 
 
 	$('.timeline-toggle-child').on('click', function(event){
-		event.preventDefault();
+		// event.preventDefault();
 		$('.time-bullet-child').removeClass('active-child');
 		$(this).children().closest('.time-bullet-child').toggleClass('active-child');
 	});
-
-
 
 
 	//1930s
