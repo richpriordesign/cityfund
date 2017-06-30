@@ -65,15 +65,15 @@ body{
 }
 
 .no-pad{
-	padding:0;
+	padding:0px;
 }
 
 .no-pad-bottom{
-	padding-bottom:0;
+	padding-bottom:0px;
 }
 
 .never-pad{
-	padding:0;
+	padding:0px;
 }
 
 .never-margin{
@@ -280,6 +280,10 @@ h1.m-btm{
 	padding-top:10px;
 }
 
+.no-pad-bottom-text{
+	padding-bottom:0px;
+}
+
 .gifts{
 	padding-bottom:0px;
 	padding-top:0px;
@@ -314,6 +318,10 @@ p.mini-menu-items{
 .article-img-article{
 	padding: 0px;
 }
+
+.professorships-headline{
+		font-size: 36px;
+	}
 
 /**** COLOR OVERRIDES****/
 
@@ -1312,6 +1320,11 @@ br{
 	content:" ";
 }
 
+@media only screen and (min-width: 520px){
+	.professorships-headline{
+		font-size: 60px;
+	}
+}
 
 @media only screen and (min-width:480px) and (max-width:767px){
 	.mobile-center{
@@ -1659,6 +1672,10 @@ br{
 	.donate-num{
 		width:100%;
 		min-width:150px;
+	}
+
+	.specialprojects-dropdown{
+		margin-top: 35px;
 	}
 
 	/**** FORMS ****/
