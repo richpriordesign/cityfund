@@ -288,4 +288,65 @@ $(document).ready(function(){
 		$('.one979-txt').addClass('show');
 	});
 
+	//1980s
+	$('.one980').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one980-txt').addClass('show');
+	});
+
+	$('.one981').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one981-txt').addClass('show');
+	});
+
+	$('.one982').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one982-txt').addClass('show');
+	});
+
+	$('.one983').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one983-txt').addClass('show');
+	});
+
+	$('.one984').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one984-txt').addClass('show');
+	});
+
+	$('.one985').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one985-txt').addClass('show');
+	});
+
+	$('.one986').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one986-txt').addClass('show');
+	});
+
+	$('.one987').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one987-txt').addClass('show');
+	});
+
+	$('.one988').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one988-txt').addClass('show');
+	});
+
+	$('.one989').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one989-txt').addClass('show');
+	});
+
 });
