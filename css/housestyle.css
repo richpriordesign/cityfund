@@ -76,6 +76,11 @@ body{
 	margin-bottom:0px;
 }
 
+.no-side-margin{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .never-pad{
 	padding:0px;
 }
@@ -576,6 +581,15 @@ a.purple:hover{
 	margin-top:25px;
 }
 
+.no-margin{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.donate-testi{
+
+	padding:15px;
+}
 /**** LINKS ****/
 
 a{
@@ -1573,6 +1587,15 @@ label .element-invisible{
 	.mobile-center{
 		text-align: center;
 	}
+
+	.align-center{
+		text-align: center;
+	}
+
+	.no-side-margin{
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media only screen and (min-width: 768px){
@@ -1600,6 +1623,11 @@ label .element-invisible{
 
 	.no-margin-bottom{
 		margin-bottom:15px;
+	}
+
+	.no-side-margin{
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	.mobile-center{
