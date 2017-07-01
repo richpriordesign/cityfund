@@ -26,7 +26,7 @@
 			<div class="col-md-8 col-sm-8 col-xs-12 donate-form-top">
 				<div class="nested-row center-block m-top-funds">
 					<div class="col-sm-12">
-						<h2 class="center purple caps donate-sm-h2">City College Students Need Your SUpport</h2>
+						<h2 class="center white donate-sm-h2">City College Students Need Your Support</h2>
 					</div>
 				</div>
 				<!-- END ROW -->
@@ -56,9 +56,9 @@
 							</div>
 						</div>
 						<!-- END NESTED ROW -->
-					 	<form class="no-margin-bottom">
-							<input name="amount" type="number" class="center-block donate-form-donate" placeholder="Other Amount">
-							<select name="specialprojects" form="projectform" class="specialprojects-dropdown no-border">
+					 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="no-margin-bottom">
+							<input id="donate-amount" name="donate-amount" type="number" class="center-block donate-form-donate no-margin-bottom" placeholder="Other Amount">
+							<select id="purpose" name="specialprojects" form="projectform" class="specialprojects-dropdown no-border" required="" size="1">
 								<option value="annualfund">Annual Fund</option>
 							  	<option value="memorialgifts">Memorial Gifts</option>
 							  	<option value="tributegift">Tribute Gift</option>
@@ -74,35 +74,49 @@
 							  	<option value="stuyvesant">Stuyvesant</option>
 							  	<option value="zahn">Zahn Innovation Center</option>
 							</select>
+
+							<input name="cmd" type="hidden" value="_donations" />
+							<input name="business" type="hidden" value="admin@ccnyfund.org" /> 
+							<input name="item_name" type="hidden" value="Donation Description" /> 
+							<input name="currency_code" type="hidden" value="USD" /> 
+							<input name="tax" type="hidden" value="0" /> 
+							<input name="lc" type="hidden" value="US" /> 
+							<input id="donate-purpose" name="item_name" type="hidden" value="'purpose'" /> <input id="amount" name="amount" type="hidden" value="'donating'" /> 
+
+							<input class="btn-center-green donate no-margin-bottom" name="submit" type="submit" value="Donate" />
+
 							<!-- END ROW -->
-							<div class="btn-center-green donate">Donate</div>
+							
 						</form> 
-						<p class="caption align-left white">&ldquo;When you support a CCNY student, you support the community that student is from. You support the dreams and lives that this student will change. Because that is what CCNY students are. We are the game changers who know that the value of our education lies in our ability to impact the world outside the classroom.&rdquo; &mdash;Suprita Datta '16 Pre-med & International Studies</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 never-pad"><p class="caption align-left white">* A confirmation email will be sent to you after you have made your donation. A receipt will be mailed. All gifts are tax deductible to the extent allowed by law. <br>* About using your credit card. Your financial security is our highest concern. Our Secure Sockets Layer (SSL) software is the industry standard and among the best software available today for secure online commerce transactions. It encrypts all of your personal information, including credit card number, name, and address, so that it cannot be read as the information travels over the Internet.</p></div>
 					</div>
 				</div>
 			</div>  <!-- END DONATE ON LEFT -->
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 m-top-funds">
-				<div class="suprita-profile mobile-only"></div>
-				<div>
-					<p>&ldquo;When you support a CCNY student, you support the community that student is from. You support the dreams and lives that this student will change. Because that is what CCNY students are. We are the game changers who know that the value of our education lies in our ability to impact the world outside the classroom.&rdquo; &mdash;Suprita Datta '16 Pre-med & International Studies</p>
+			<div class="nested-row">
+				<div class="col-md-4 col-sm-4 col-xs-12 m-top-funds">
+					<div class="suprita-profile mobile-only"></div>
+					<div>
+						<p>&ldquo;When you support a CCNY student, you support the community that student is from. You support the dreams and lives that this student will change. Because that is what CCNY students are. We are the game changers who know that the value of our education lies in our ability to impact the world outside the classroom.&rdquo; &mdash;Suprita Datta '16 Pre-med & International Studies</p>
+					</div>
+					<!-- END TESTIMONIAL COLUMN -->
 				</div>
-				<!-- END TESTIMONIAL COLUMN -->
+				<!-- END TESTIMONIAL-->
 			</div>
-			<!-- END TESTIMONIAL-->
 		</div><!-- END 1st row-->
-				
 
 
 		<div class="row center-block">
-			
+			<div class="col-sm-12 center">
+				<h2 class="purple caps m-top">We Give Back</h2>
+				<p class="m-top1">In appreciation for your donation we will send you one of the following gifts:</p>
+			</div>
 		</div>
 		<!-- END ROW -->
 
 		
 		<div id="donate" class="row center-block m-top">
 			<div class="col-sm-12">
-				<h2 class="center purple caps">Make A Difference</h2>
+				<h2 class="center purple">Thank You</h2>
 			</div>
 		</div>
 		<!-- END ROW -->
@@ -135,9 +149,9 @@
 
 			
 
-			  <form>
-					<input name="amount" type="number" class="center-block donate-form" placeholder="Other Amount">
-					<select name="specialprojects" form="projectform" class="specialprojects-dropdown">
+			  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input id="donate-amount" name="donate-amount" type="number" class="center-block donate-form" placeholder="Other Amount">
+					<select id="purpose" name="specialprojects" form="projectform" class="specialprojects-dropdown"  required="" size="1">
 						<option value="baseball">Baseball</option>
 						  <option value="brooklyn">Brooklyn Tech/CCNY</option>
 						  <option value="bronx">Bronx Science/CCNY</option>
@@ -151,7 +165,15 @@
 						</select>
 					<!-- END ROW -->
 		
-					<div class="btn-center donate">Donate</div>
+					<input name="cmd" type="hidden" value="_donations" />
+					<input name="business" type="hidden" value="admin@ccnyfund.org" /> 
+					<input name="item_name" type="hidden" value="Donation Description" /> 
+					<input name="currency_code" type="hidden" value="USD" /> 
+					<input name="tax" type="hidden" value="0" /> 
+					<input name="lc" type="hidden" value="US" /> 
+					<input id="donate-purpose" name="item_name" type="hidden" value="'purpose'" /> <input id="amount" name="amount" type="hidden" value="'donating'" /> 
+
+					<input class="btn-center donate" name="submit" type="submit" value="Donate" />
 				
 	
 				</form> 

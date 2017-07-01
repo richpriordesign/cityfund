@@ -72,7 +72,7 @@ body{
 	padding-bottom:0px;
 }
 
-.no-margin-bottom{
+.donate.no-margin-bottom{
 	margin-bottom:0px;
 }
 
@@ -546,6 +546,7 @@ a.purple:hover{
 	background-color:#A175FF;
 	border-bottom-color:#7D5CC6;
 }
+ 
 
 .donate-form-top{
 	background-color:#A175FF;
@@ -604,12 +605,24 @@ input{
 	color:gray;
 }
 
+
+input.donate-form-donate{
+	border:0px;
+	width:100%;
+	font-size:30px;
+	border-bottom:3px solid #7D5CC6;
+}
+
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
+}
+
+.donate-form-donate::-webkit-input-placeholder{
+	color:#fff;
 }
 
 select{
@@ -1585,6 +1598,10 @@ label .element-invisible{
 		padding-bottom:inherit;
 	}
 
+	.no-margin-bottom{
+		margin-bottom:15px;
+	}
+
 	.mobile-center{
 		text-align: left;
 	}
@@ -1621,7 +1638,6 @@ label .element-invisible{
 
 	.donate-sm-h2{
 		font-size:30px;
-		color:#fff;
 	}
 
 	p{
@@ -2099,6 +2115,11 @@ label .element-invisible{
 	input.donate-form-donate{
 		font-size:45px;
 		width:70%;
+		color:#fff;
+	}
+
+	.donate-form-donate::-webkit-input-placeholder{
+		color:#fff;
 	}
 
 	form{
