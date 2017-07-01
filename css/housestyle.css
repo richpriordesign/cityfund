@@ -72,6 +72,10 @@ body{
 	padding-bottom:0px;
 }
 
+.no-margin-bottom{
+	margin-bottom:0px;
+}
+
 .never-pad{
 	padding:0px;
 }
@@ -125,7 +129,16 @@ h3{
 	font-size:20px;
 	line-height:24px;
 	font-weight:400;
-}center-block
+}
+
+center-block
+
+.donate-sm-h2{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	font-weight:700;
+}
 
 h4.awarded{
 	margin-bottom: 25px;
@@ -145,7 +158,7 @@ br.award-titles{
 
 p{
 	margin:0;
-	padding:0 0 25px 0;
+	padding:0 0 15px 0;
 	font-size:14px;
 	font-weight:400;
 }
@@ -186,11 +199,15 @@ h1.m-btm{
 }
 
 .m-top1{
-	margin-top:25px;
+	margin-top:15px;
 }
 
 .m-top2{
 	margin-top:0px;
+}
+
+.m-bottom{
+	margin-bottom:15px;
 }
 
 .no-shadow{
@@ -202,7 +219,7 @@ h1.m-btm{
 }
 
 #matching-gift{
-	padding-top: 25px;
+	padding-top: 15px;
 	font-weight: 400;
 }
 
@@ -276,22 +293,16 @@ h1.m-btm{
 }
 
 .dropquote{
-	width:60%;
-	margin:0px 0px 30px 15px;
+	width:100%;
+	margin:0px 0px 15px 15px;
 	padding-left:10px;
 	font-size:2rem;
+	font-weight:500;
 	float:right;
 	border-left:solid #7D5CC6 6px;
 }
 
-.dropquote{
-	width:100%;
-	margin:0px 0px 25px 15px;
-	padding-left:10px;
-	font-size:2rem;
-	font-weight:500;
-	border-left:solid #7D5CC6 6px;
-}
+
 
 .caption{
 	font-size:12px;
@@ -331,6 +342,10 @@ p.mini-menu-items{
 
 .caption-right{
 	display:none;
+}
+
+.align-left{
+	text-align: left;
 }
 
 .caption-left{
@@ -402,6 +417,7 @@ a.purple:hover{
 	border:0;
 }
 
+
 .btn p{
 	font-size:18px;
 	margin:0;
@@ -420,6 +436,30 @@ a.purple:hover{
 	color:#FFF;
 }
 
+
+.btn-alt{
+	margin:0;
+	margin-bottom:25px;
+	padding:15px;
+	background-color:#7D5CC6;
+	color:#FFF;
+	font-weight:700;
+	cursor:pointer;
+	border-radius:0;
+	min-width:220px;
+	border:0;
+}
+
+.btn-alt:hover{
+	background-color:#7AB800;
+	color:#FFF;
+}
+
+.btn-alt:active{
+	background-color:#6ea600;
+	color:#FFF;
+}
+
 .btn-green{
 	background-color:#7AB800;
 }
@@ -432,6 +472,30 @@ a.purple:hover{
 .btn-green:active{
 	/*margin-top:1px;
 	margin-left:1px;*/
+	background-color:#6ea600;
+	color:#FFF;
+}
+
+.btn-center-green{	
+	margin:0 auto 25px;
+	padding:15px;
+	background-color:#7D5CC6;
+	color:#FFF;
+	font-weight:700;
+	cursor:pointer;
+	border-radius:0;
+	max-width:220px;
+	display:block;
+	text-align:center;
+	border:0;
+}
+
+.btn-center-green:hover{
+	background-color:#7AB800;
+	color:#FFF;
+}
+
+.btn-center-green:active{
 	background-color:#6ea600;
 	color:#FFF;
 }
@@ -476,7 +540,24 @@ a.purple:hover{
 	margin-bottom: 30px;
 }
 
+.donate-form-donate{
+	text-align:center;
+	margin-bottom: 30px;
+	background-color:#A175FF;
+	border-bottom-color:#7D5CC6;
+}
+
+.donate-form-top{
+	background-color:#A175FF;
+}
+
 .donate-num{
+	width:100%;
+	min-width:50%;
+	padding:20px 0px;
+}
+
+.donate-num-donate{
 	width:100%;
 	min-width:50%;
 	padding:20px 0px;
@@ -486,8 +567,12 @@ a.purple:hover{
 	font-size:24px;
 }
 
+.btn p.donate-text-donate{
+	font-size:24px;
+}
+
 .donate-row{
-	margin-top:50px;
+	margin-top:25px;
 }
 
 /**** LINKS ****/
@@ -507,7 +592,7 @@ a:focus{
 /**** FORMS ****/
 
 form{
-	margin-top:40px;
+	margin-top:0px;
 	margin-bottom:40px;
 }
 
@@ -531,6 +616,16 @@ select{
 	width:100%;
 	max-width:550px;
 	border:1px solid #7D5CC6;
+	padding:5px;
+	font-size:18px;
+	line-height:21px;
+	background-color:#FFF;
+}
+
+select.no-border{
+	width:100%;
+	max-width:550px;
+	border:0px solid #7D5CC6;
 	padding:5px;
 	font-size:18px;
 	line-height:21px;
@@ -678,6 +773,34 @@ option{
 	display:block;
 }
 
+.berta-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/funds/fundscovers/berta-profile.jpg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+
+.suprita-profile{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(../img/donate/suprita-profile.png);
+	background-position:50% 10%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:4px solid #7D5CC6;
+	margin:0 auto 25px;
+	display:block;
+}
+
+
 /**** SECTIONS ****/
 
 
@@ -692,6 +815,7 @@ option{
 		background:url(../img/landing.jpg);
 		background-size:cover;
 		background-repeat:no-repeat;
+		background-position: 70%;
 	}
 
 	#about{
@@ -907,6 +1031,20 @@ option{
 	padding:0;
 	background-color:#000;
 	background:url(../img/funds/fundscovers/scholarship1-mobile.jpg);
+	background-position:50% 20%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+
+#berta-bkg{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#000;
+	background:url(../img/funds/fundscovers/berta-mobile.jpg);
 	background-position:50% 20%;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -1350,6 +1488,43 @@ br{
 	content:" ";
 }
 
+
+/**** SEARCH NAVIGATION ****/
+
+.navbar{
+	max-height:initial;
+}
+
+.navbar-right{
+	float:none !important;
+	margin-right:0px !important;
+}
+
+label .element-invisible{
+	display:none;
+}
+
+.navbar-form .form-control{
+	width:75%;
+	border:0;
+	border-radius:0;
+}
+
+.button{
+	margin:0;
+	margin-bottom:20px;
+	background-color:#7AB800;
+	border:0;
+}
+
+.search{
+	display:none;
+}
+
+.search-icon img{
+	width:30px;
+}
+
 @media only screen and (min-width: 520px){
 	.professorships-headline{
 		font-size: 60px;
@@ -1371,6 +1546,7 @@ br{
 		width:100% !important;
 	}
 
+
 	.no-pad{
 		padding:inherit;
 	}
@@ -1388,16 +1564,18 @@ br{
 		text-align: left;
 	}
 
-	#sec1, #sec2, #sec3{
-		padding-top: 25px;
+	.m-top{
+		margin-top:50px;
 	}
 
-	#sec4, #sec5, #sec6, #sec7, #sec8{
-		padding-top: 25px;
-	}
 
 	.m-top2{
-		margin-top:25px;
+		margin-top:15px;
+	}
+
+
+	.m-bottom{
+		margin-bottom:0px;
 	}
 
 
@@ -1416,7 +1594,14 @@ br{
 		line-height:30px;
 	}
 
+	.donate-sm-h2{
+		font-size:30px;
+		color:#fff;
+	}
+
 	p{
+		margin:0;
+		padding:0 0 25px 0;
 		font-size:16px;
 		font-weight:400;
 	}
@@ -1481,9 +1666,7 @@ br{
 	padding-bottom:0px;
 	}
 
-	.m-top{
-		margin-top:25px;
-	}
+	
 
 	.m-top-funds{
 		margin-top:50px;
@@ -1624,6 +1807,17 @@ br{
 		background-repeat:no-repeat;
 	}
 
+	#berta-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/funds/fundscovers/berta-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
 
 	.rotc-profile{
 		display:none;
@@ -1658,6 +1852,10 @@ br{
 	}
 
 	.existing-scholarships-profile{
+		display:none;
+	}
+
+	.berta-profile{
 		display:none;
 	}
 
@@ -1725,6 +1923,10 @@ br{
 		font-size:36px;
 	}
 
+	.btn p.donate-text-donate{
+		font-size:30px;
+	}
+
 	.donate{
 		margin-top:50px;
 	}
@@ -1732,6 +1934,15 @@ br{
 	.donate-num{
 		width:100%;
 		min-width:150px;
+	}
+
+	.donate-num-donate{
+		width:100%;
+		min-width:140px;
+	}
+
+	.donate-row{
+		margin-top:50px;
 	}
 
 	.specialprojects-dropdown{
@@ -1742,6 +1953,21 @@ br{
 	input{
 		font-size:60px;
 		width:70%;
+	}
+
+	input.donate-form-donate{
+		font-size:45px;
+		width:70%;
+	}
+
+	form{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+
+	/**** SEARCH NAV ****/
+	.navbar{
+		max-height:150px;
 	}
 }
 
@@ -1802,6 +2028,14 @@ br{
 
 	.m-top1{
 		margin-top:25px;
+	}
+
+	#sec1, #sec2, #sec3{
+		padding-top: 35px;
+	}
+
+	#sec4, #sec5, #sec6, #sec7, #sec8{
+		padding-top: 35px;
 	}
 
 	/**** ABOUT ****/
