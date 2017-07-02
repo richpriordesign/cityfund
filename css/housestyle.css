@@ -1564,9 +1564,16 @@ label .element-invisible{
 
 .button{
 	margin:0;
+	margin-top:-5px;
 	padding:10px;
 	background-color:#7AB800;
 	border:0;
+}
+
+.button:active,
+.button:hover,
+.button:focus{
+	background-color:#6ea600;
 }
 
 .search{
@@ -1576,6 +1583,7 @@ label .element-invisible{
 
 .search-icon img{
 	width:30px;
+	padding-top:20px;
 }
 
 label.element-invisible{
@@ -2166,7 +2174,7 @@ label.element-invisible{
 	}
 
 	form.form-inline{
-		margin-top:15px !important;
+		margin-top:0px;
 		margin-bottom:0px;
 	}
 }
