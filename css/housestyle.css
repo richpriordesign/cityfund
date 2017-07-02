@@ -1564,17 +1564,22 @@ label .element-invisible{
 
 .button{
 	margin:0;
-	margin-bottom:20px;
+	padding:10px;
 	background-color:#7AB800;
 	border:0;
 }
 
 .search{
+	margin-top:25px;
 	display:none;
 }
 
 .search-icon img{
 	width:30px;
+}
+
+label.element-invisible{
+	display:none;
 }
 
 @media only screen and (min-width: 520px){
@@ -2158,6 +2163,11 @@ label .element-invisible{
 	/**** SEARCH NAV ****/
 	.navbar{
 		max-height:150px;
+	}
+
+	form.form-inline{
+		margin-top:15px !important;
+		margin-bottom:0px;
 	}
 }
 
