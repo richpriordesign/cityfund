@@ -108,6 +108,12 @@ div[itemprop="articleBody"]{
    height:100% !important;
 }
 
+.mobile-block{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 
 
 /**** TYPOGRAPHY ****/
@@ -193,6 +199,10 @@ h1.m-btm{
 .alt-color{
 	color:#FFF;
 	text-shadow:1px 1px 25px rgba(0,0,0,0.8);
+}
+
+.alt-color{
+	text-shadow:1px 1px 25px rgba(0,0,0,0.4);
 }
 
 .m-top{
@@ -1703,10 +1713,11 @@ a.chzn-single{
 	}
 }
 
+.mobile-center{
+	text-align: center;
+}
+
 @media only screen and (min-width:480px) and (max-width:767px){
-	.mobile-center{
-		text-align: center;
-	}
 
 	.align-center{
 		text-align: center;
@@ -1736,6 +1747,8 @@ a.chzn-single{
 	.row{
 		width:85% !important;
 	}
+
+
 	.nested-row{
 		width:100% !important;
 	}
@@ -1761,10 +1774,6 @@ a.chzn-single{
 	.no-side-margin{
 		margin-left: 0px;
 		margin-right: 0px;
-	}
-
-	.mobile-center{
-		text-align: left;
 	}
 
 	.m-top{
@@ -2202,6 +2211,12 @@ a.chzn-single{
 		display:none;
 	}
 
+	.mobile-block{
+		display: block;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
 	/**** TYPOGRAPHY ****/
 	.dropquote{
 		width:60%;
@@ -2484,6 +2499,11 @@ a.chzn-single{
 }
 
 @media only screen and (min-width: 1075px){
+
+	.mobile-center{
+		text-align: left;
+	}
+
 	.card-top{
 		min-width:100%;
 		margin-top:25px;
