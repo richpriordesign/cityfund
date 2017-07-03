@@ -851,7 +851,24 @@ input.emailinput{
 }
 
 .slider{
-	margin-bottom: 25px;
+	padding-bottom: 75px;
+}
+
+.icon{
+	width: 20px;
+	margin-right: 12px;
+}
+
+.icon-last{
+	margin-right: 0px;
+}
+
+.icon:hover{
+	fill: #795cc6;
+}
+
+.icon-last:hover{
+	fill:#795cc6;
 }
 
 
@@ -1899,185 +1916,6 @@ a.chzn-single{
 	}
 
 	/**** IMAGES ****/
-	#rotc-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/projects/rotc-cover2.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#rotc-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/projects/rotc-cover2.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#bxscience-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/projects/bxscience-cover.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#debeer-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/projects/debeer.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#brooklyntech-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/projects/brooklyntech-cover.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#newera-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/projects/newera-cover2.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#professorships-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/projects/maurizio-trevisan2.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#stuy-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/projects/stuyvesant-cover.jpg);
-		background-position:70% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#funds1-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/funds/fundscovers/funds-cover.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#existing-scholarships-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/funds/fundscovers/scholarship1-cover.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#berta-bkg{
-		width:100%;
-		min-height:500px;
-		padding:50px 10px 75px 5px;
-		background-color:#FFF;
-		background:url(../img/funds/fundscovers/berta-cover.jpg);
-		background-position:50% 20%;
-		background-size:cover;
-		background-repeat:no-repeat;
-	}
-
-	#reunion-bkg{
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		background-color:#000;
-		background:url(../img/events/reunion-cover.jpg);
-		background-size:cover;
-		background-repeat:no-repeat;
-		height:350px;
-		background-position:33% 33%;
-	}
-
-
-	.rotc-profile{
-		display:none;
-	}
-
-	.bxscience-profile{
-		display:none;
-	}
-
-	.debeer-profile{
-		display:none;
-	}
-
-	.brooklyn-profile{
-		display:none;
-	}
-
-	.newera-profile{
-		display:none;
-	}
-
-	.professorships-profile{
-		display:none;
-	}
-
-	.stuy-profile{
-		display:none;
-	}
-
-	.funds1-profile{
-		display:none;
-	}
-
-	.existing-scholarships-profile{
-		display:none;
-	}
-
-	.berta-profile{
-		display:none;
-	}
 
 	.article-img-middle{
 		text-align: left;
@@ -2088,6 +1926,16 @@ a.chzn-single{
 	.shames{
 		max-width: 100%;
 	}
+
+	.icon{
+		width: 60px;
+		margin-right: 25px;
+	}
+
+	.icon-last{
+		margin-right: 0px;
+	}
+
 
 
 	/**** CARDS ****/
@@ -2381,6 +2229,188 @@ a.chzn-single{
 	}
 
 	/**** IMAGES ****/
+		#rotc-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/rotc-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#rotc-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/rotc-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#bxscience-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/projects/bxscience-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#debeer-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/debeer.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#brooklyntech-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/brooklyntech-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#newera-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/newera-cover2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#professorships-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/maurizio-trevisan2.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#stuy-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/projects/stuyvesant-cover.jpg);
+		background-position:70% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#funds1-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/funds/fundscovers/funds-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#existing-scholarships-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/funds/fundscovers/scholarship1-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#berta-bkg{
+		width:100%;
+		min-height:500px;
+		padding:50px 10px 75px 5px;
+		background-color:#FFF;
+		background:url(../img/funds/fundscovers/berta-cover.jpg);
+		background-position:50% 20%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+
+	#reunion-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/events/reunion-cover.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:350px;
+		background-position:33% 33%;
+	}
+
+
+	.rotc-profile{
+		display:none;
+	}
+
+	.bxscience-profile{
+		display:none;
+	}
+
+	.debeer-profile{
+		display:none;
+	}
+
+	.brooklyn-profile{
+		display:none;
+	}
+
+	.newera-profile{
+		display:none;
+	}
+
+	.professorships-profile{
+		display:none;
+	}
+
+	.stuy-profile{
+		display:none;
+	}
+
+	.funds1-profile{
+		display:none;
+	}
+
+	.existing-scholarships-profile{
+		display:none;
+	}
+
+	.berta-profile{
+		display:none;
+	}
+
+
+
 	.profile{
 		display:none;
 	}
