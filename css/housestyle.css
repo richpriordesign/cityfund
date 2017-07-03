@@ -1125,7 +1125,7 @@ input.emailinput{
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:350px;
-	background-position:33% 33%;
+	background-position:0% 33%;
 }
 
 #anniversary-bkg{
@@ -1695,6 +1695,19 @@ a.chzn-single{
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	#reunion-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/events/reunion-cover.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:350px;
+		background-position:33% 33%;
+	}
 }
 
 @media only screen and (min-width: 768px){
@@ -2006,6 +2019,19 @@ a.chzn-single{
 		background-position:50% 20%;
 		background-size:cover;
 		background-repeat:no-repeat;
+	}
+
+	#reunion-bkg{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		background-color:#000;
+		background:url(../img/events/reunion-cover.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		height:350px;
+		background-position:33% 33%;
 	}
 
 
