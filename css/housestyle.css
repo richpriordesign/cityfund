@@ -372,6 +372,9 @@ blockquote {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
+.caret{
+	width:10px;
+}
 
 /**** COLOR OVERRIDES****/
 
@@ -407,6 +410,10 @@ a.purple:hover{
 	color:#7AB800;
 }
 
+a.green:hover{
+	color:#F3CF45;
+}
+
 /**** BUTTONS ****/
 
 .btn{
@@ -431,8 +438,8 @@ a.purple:hover{
 
 p span.btn{
 	font-size:18px;
-	margin:0;
-	padding:0;
+	/*margin:0;
+	padding:0;*/
 }
 
 .btn:hover{
@@ -888,6 +895,7 @@ option{
 		margin:0 auto;
 	}
 
+
 /**** ABOUT ****/
 
 #board-bkg{
@@ -1294,6 +1302,8 @@ a.logo{
 	color:#FFF;
 	font-weight:700;
 	text-align:left;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .dropdown-menu li a{
@@ -1781,10 +1791,12 @@ label.element-invisible{
 
 	/**** NAVIGATION ****/
 	.navbar-nav li a{
-		font-size:24px;
+		font-size:16px;
 		color:#FFF;
 		font-weight:700;
 		text-align:center;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	a.logo{
@@ -2203,6 +2215,14 @@ label.element-invisible{
 		margin-top:0px;
 		margin-bottom:0px;
 	}
+
+	.search-icon{
+		width: 5px;
+	}
+
+	.search-icon img{
+		width: 20px;
+	}
 }
 
 @media only screen and (min-width:992px){
@@ -2241,6 +2261,17 @@ label.element-invisible{
 	.profile{
 		display:none;
 	}
+
+	/**** NAVIGATION ****/
+	.navbar-nav li a{
+	font-size:21px;
+	color:#FFF;
+	font-weight:700;
+	text-align:center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 
 	/**** CARDS ****/
 	.card-title{
@@ -2293,6 +2324,10 @@ label.element-invisible{
 		width:60%;
 	}
 	
+	/**** SEARCH NAVIGATION ****/
+	.search-icon img{
+		width: 30px;
+	}
 }
 
 @media only screen and (min-width: 1075px){
