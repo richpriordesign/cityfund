@@ -320,6 +320,11 @@ h1.m-btm{
 	padding-bottom:0px;
 }
 
+li.reunion{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
 .gifts{
 	padding-bottom:0px;
 	padding-top:0px;
@@ -676,6 +681,11 @@ option{
 	width:100%;
 	padding:5px;
 	width:100%;
+}
+
+input.emailinput{
+	width:95%;
+	text-align:center;
 }
 
 
@@ -1587,17 +1597,18 @@ label .element-invisible{
 }
 
 .navbar-form .form-control{
-	width:75%;
+	width:100%;
 	border:0;
 	border-radius:0;
 }
 
 .button{
 	margin:0;
-	margin-top:-5px;
+	margin-top:5px;
 	padding:10px;
 	background-color:#7AB800;
 	border:0;
+	width:100%;
 }
 
 .button:active,
@@ -1618,6 +1629,10 @@ label .element-invisible{
 
 label.element-invisible{
 	display:none;
+}
+
+.search-row{
+	margin:0 auto;
 }
 
 @media only screen and (min-width: 520px){
@@ -1689,6 +1704,12 @@ label.element-invisible{
 
 	.m-bottom{
 		margin-bottom:0px;
+	}
+
+
+	li.reunion{
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 
 
@@ -1797,6 +1818,10 @@ label.element-invisible{
 		text-align:center;
 		padding-right: 10px;
 		padding-left: 10px;
+	}
+
+	.navbar-nav .open .dropdown-menu>li>a{
+		line-height: 40px;
 	}
 
 	a.logo{
@@ -2206,6 +2231,10 @@ label.element-invisible{
 		margin-bottom:40px;
 	}
 
+	input.emailinput{
+		width:80%;
+	}
+
 	/**** SEARCH NAV ****/
 	.navbar{
 		max-height:150px;
@@ -2222,6 +2251,21 @@ label.element-invisible{
 
 	.search-icon img{
 		width: 20px;
+	}
+
+	.navbar-form .form-control{
+		width:75%;
+		border:0;
+		border-radius:0;
+	}
+
+	.button{
+		margin:0;
+		margin-top:-5px;
+		padding:10px;
+		background-color:#7AB800;
+		border:0;
+		width:auto;
 	}
 }
 

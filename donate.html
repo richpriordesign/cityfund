@@ -158,22 +158,22 @@
 			<div class="col-sm-12">
 				<div class="row center-block">
 					<div class="col-md-3 col-xs-6">
-						<div class="btn donate-num">
+						<div class="thirty btn btn donate-num">
 							<p class="donate-text">$30</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
-						<div class="btn donate-num">
+						<div class="fifty btn donate-num">
 							<p class="donate-text">$50</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
-						<div class="btn donate-num">
+						<div class="onehundred btn donate-num">
 							<p class="donate-text">$100</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
-						<div class="btn donate-num">
+						<div class="twofifty btn donate-num">
 							<p class="donate-text">$250</p>
 						</div>
 					</div>
@@ -185,17 +185,21 @@
 			  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input id="donate-amount" name="donate-amount" type="number" class="center-block donate-form" placeholder="Other Amount">
 					<select id="purpose" name="specialprojects" form="projectform" class="specialprojects-dropdown"  required="" size="1">
+						<option value="annualfund">Annual Fund</option>
+					  	<option value="memorialgifts">Memorial Gifts</option>
+					  	<option value="tributegift">Tribute Gift</option>
+					  	<option value="presidentsfund">President's Fund</option>
 						<option value="baseball">Baseball</option>
-						  <option value="brooklyn">Brooklyn Tech/CCNY</option>
-						  <option value="bronx">Bronx Science/CCNY</option>
-						  <option value="levine">The Louis Levine-Gabriella de Beer Lecture in Genetics</option>
-						  <option value="lamda">Lamda</option>
-						  <option value="newera">New Era Scholarship</option>
-						  <option value="professorships">Professorships</option>
-						  <option value="rotc">ROTC</option>
-						  <option value="stuyvesant">Stuyvesant</option>
-						  <option value="zahn">Zahn Innovation Center</option>
-						</select>
+					  	<option value="brooklyn">Brooklyn Tech/CCNY</option>
+					  	<option value="bronx">Bronx Science/CCNY</option>
+					  	<option value="levine">The Louis Levine-Gabriella de Beer Lecture in Genetics</option>
+					  	<option value="lamda">Lamda</option>
+					  	<option value="newera">New Era Scholarship</option>
+					  	<option value="professorships">Professorships</option>
+					  	<option value="rotc">ROTC</option>
+					  	<option value="stuyvesant">Stuyvesant</option>
+					  	<option value="zahn">Zahn Innovation Center</option>
+					</select>
 					<!-- END ROW -->
 		
 					<input name="cmd" type="hidden" value="_donations" />
@@ -208,7 +212,6 @@
 
 					<input class="btn-center donate" name="submit" type="submit" value="Donate" />
 				
-	
 				</form> 
 
 			</div>
