@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Fund;The;City
+FN:The City College Fund
+TITLE:website owner
+TEL;TYPE=WORK,VOICE:+1 212 650 6525
+TEL;TYPE=WORK,FAX: +1 212 491 2622
+TEL;TYPE=WORK,MOBILE:
+ADR;TYPE=WORK:;;160 Convent Ave
+Shepard Hall, Room 166;New York, NY 10031; ; ;U.S.
+LABEL;TYPE=WORK:160 Convent Ave
+Shepard Hall, Room 166
+New York, NY 10031
+ 
+ 
+U.S.
+EMAIL;TYPE=PREF,INTERNET:admin@ccnyfund.org
+URL:http://www.CityCollegeFund.org
+REV:2016-11-18T20:00:29-05:00Z
+END:VCARD

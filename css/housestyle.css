@@ -272,7 +272,7 @@ h1.m-btm{
 	padding-top:40px;
 }
 .contact-title{
-	margin-bottom:0;
+	margin-bottom:5px;
 	padding-bottom:0;
 }
 
@@ -426,6 +426,10 @@ a.purple:hover{
 }
 
 a.green:hover{
+	color:#F3CF45;
+}
+
+a.green:focus{
 	color:#F3CF45;
 }
 
@@ -1432,7 +1436,9 @@ a.logo{
 	margin-top:25px;
 }
 
-
+.navbar-nav .open .dropdown-menu>li>a{
+	line-height: 40px;
+}
 
 
 /**** FOOTER ****/
@@ -1489,7 +1495,7 @@ footer{
 
 
 .contact-name{
-	padding-top:10px;
+	padding-top:0px;
 }
 
 .contact-info{
@@ -1913,10 +1919,6 @@ a.chzn-single{
 		padding-left: 10px;
 	}
 
-	.navbar-nav .open .dropdown-menu>li>a{
-		line-height: 40px;
-	}
-
 	a.logo{
 		margin-right:25px;
 	}
@@ -2191,7 +2193,7 @@ a.chzn-single{
 	}
 
 	.navbar-form .form-control{
-		width:75%;
+		width:70%;
 		border:0;
 		border-radius:0;
 	}
