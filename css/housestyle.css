@@ -653,6 +653,7 @@ input.donate-form-donate{
 	width:100%;
 	font-size:30px;
 	border-bottom:3px solid #7D5CC6;
+	color:#fff;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
