@@ -20,6 +20,19 @@ $(document).ready(function(){
 		$(this).children().closest('.time-bullet-child').toggleClass('active-child');
 	});
 
+	$('.timeline-master-bullet').on('click', function(event){
+		event.preventDefault();
+		$('.timeline-container').toggleClass('show');
+		$('.timeline-module').toggleClass('bullet-show');
+		$(this).toggleClass('bullet-bottom')
+	});
+
+	$('.time-bullet-child').on('click', function(event){
+		event.preventDefault();
+		$('.timeline-module').removeClass('bullet-show');
+		$('.timeline-container').removeClass('show');
+
+	})
 
 	//1930s
 	$('.one937').on('click', function(event){
@@ -348,5 +361,254 @@ $(document).ready(function(){
 		$('.timeline-info-txt').removeClass('show');
 		$('.one989-txt').addClass('show');
 	});
+
+
+
+//1990s
+	$('.one990').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one990-txt').addClass('show');
+	});
+
+	$('.one991').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one991-txt').addClass('show');
+	});
+
+	$('.one992').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one992-txt').addClass('show');
+	});
+
+	$('.one993').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one993-txt').addClass('show');
+	});
+
+	$('.one994').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one994-txt').addClass('show');
+	});
+
+	$('.one995').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one995-txt').addClass('show');
+	});
+
+	$('.one996').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one996-txt').addClass('show');
+	});
+
+	$('.one997').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one997-txt').addClass('show');
+	});
+
+	$('.one998').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one998-txt').addClass('show');
+	});
+
+	$('.one999').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.one999-txt').addClass('show');
+	});
+
+
+	//2000s
+	$('.two000').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two000-txt').addClass('show');
+	});
+
+	$('.two001').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two001-txt').addClass('show');
+	});
+
+	$('.two002').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two002-txt').addClass('show');
+	});
+
+	$('.two003').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two003-txt').addClass('show');
+	});
+
+	$('.two004').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two004-txt').addClass('show');
+	});
+
+	$('.two005').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two005-txt').addClass('show');
+	});
+
+	$('.two006').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two006-txt').addClass('show');
+	});
+
+	$('.two007').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two007-txt').addClass('show');
+	});
+
+	$('.two008').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two008-txt').addClass('show');
+	});
+
+	$('.two009').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two009-txt').addClass('show');
+	});
+
+	//2010s
+	$('.two010').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two010-txt').addClass('show');
+	});
+
+	$('.two011').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two011-txt').addClass('show');
+	});
+
+	$('.two012').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two012-txt').addClass('show');
+	});
+
+	$('.two013').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two013-txt').addClass('show');
+	});
+
+	$('.two014').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two014-txt').addClass('show');
+	});
+
+	$('.two015').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two015-txt').addClass('show');
+	});
+
+	$('.two016').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two016-txt').addClass('show');
+	});
+
+	$('.two017').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two017-txt').addClass('show');
+	});
+
+	$('.two018').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two018-txt').addClass('show');
+	});
+
+	$('.two019').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two019-txt').addClass('show');
+	});
+
+	//2020s
+	$('.two020').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two020-txt').addClass('show');
+	});
+
+	$('.two021').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two021-txt').addClass('show');
+	});
+
+	$('.two022').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two022-txt').addClass('show');
+	});
+
+	$('.two023').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two023-txt').addClass('show');
+	});
+
+	$('.two024').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two024-txt').addClass('show');
+	});
+
+	$('.two025').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two025-txt').addClass('show');
+	});
+
+	$('.two026').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two026-txt').addClass('show');
+	});
+
+	$('.two027').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two027-txt').addClass('show');
+	});
+
+	$('.two028').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two028-txt').addClass('show');
+	});
+
+	$('.two029').on('click', function(event){
+		
+		$('.timeline-info-txt').removeClass('show');
+		$('.two029-txt').addClass('show');
+	});
+
+
 
 });

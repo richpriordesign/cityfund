@@ -7,7 +7,7 @@ body{
 	width:100%;
 	height:100%;
 	margin:0;
-	padding:0;
+	padding:;	
 	font-family:'Montserrat', "Gill Sans", "Helvetica", "Arial", sans-serif;
 	color:#565A5C;
 }
@@ -76,9 +76,18 @@ body{
 	margin-bottom:0px;
 }
 
+.no-margin-bottom1{
+	margin-bottom:0px;
+}
+
 .no-side-margin{
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.mobile-no-margin{
+	margin-left:0px;
+	margin-right:0px;
 }
 
 .never-pad{
@@ -112,6 +121,7 @@ div[itemprop="articleBody"]{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: left;
 }
 
 
@@ -141,8 +151,6 @@ h3{
 	line-height:24px;
 	font-weight:400;
 }
-
-center-block
 
 .donate-sm-h2{
 	margin:0;
@@ -258,21 +266,22 @@ h1.m-btm{
 }
 
 .no-contact-info{
-	padding-top:15px;
+	padding-top:5px;
 }
 
 .contact-info p{
-	margin-bottom:0;
-	padding-bottom:0;
+	margin-bottom:0px;
+	padding-bottom:0px;
 }
 
 .contact-name{
-	margin-bottom:0;
-	padding-bottom:0;
+	margin-bottom:0px;
+	padding-bottom:0px;
 	padding-top:40px;
 }
-.contact-title{
-	margin-bottom:5px;
+
+h3.purple.contact-title{
+	margin-bottom:10px;
 	padding-bottom:0;
 }
 
@@ -410,6 +419,10 @@ blockquote {
 }
 
 a.purple:hover{
+	color:#9093CE;
+}
+
+a.purple:focus{
 	color:#9093CE;
 }
 
@@ -1334,7 +1347,7 @@ a.logo{
 
 .navbar{
 	border-radius:0px;
-	min-height:80px;
+	min-height:50px;
 	border:0px;
 	background-color:#7D5CC6;
 	margin-bottom:0px;
@@ -1506,6 +1519,10 @@ h3.purple{
 	margin-bottom:10px;	
 }
 
+h3.purple.contact-name{
+	margin-bottom:0px;	
+}
+
 #about{
 	margin-top:25px;
 	margin-bottom:25px;
@@ -1597,14 +1614,17 @@ h3.purple{
 }
 
 .timeline-module{
+	width:inherit;
 	padding:0;
-	left:50%;
+	left:90%;
 	z-index:2000;
-	background-color:orange;
+	background-color:#FFF;
+	background-color:rgba(255,255,255,.8);
 	display:block;
 	transition: ease 1s;
 	-webkit-transition: ease 1s;
 	position:absolute;
+	margin-bottom:0px;
 	
 }
 
@@ -1617,6 +1637,24 @@ h3.purple{
 }
 
 .timeline-master-bullet{
+	width:40px;
+	height:40px;
+	margin-left:-20px;
+	background-color:#FFF;
+	border:5px solid #7D5CC6;
+	border-radius:50%;
+	transition: ease .5s;
+	display:inline-block;
+	z-index:3000;
+	color:#7D5CC6;
+	margin-top:-5px;
+	font-size:36px;
+	font-weight:700;
+	line-height:29px;
+	text-align:center;
+}
+
+.timeline-container{
 	display:none;
 }
 
@@ -1632,6 +1670,15 @@ h3.purple{
 
 .show{
 	display:block;
+}
+
+.bullet-show{
+	width:50%;
+	left:50%;
+}
+
+.bullet-bottom{
+	margin-bottom:50px;
 }
 
 .active-child{
@@ -1714,6 +1761,11 @@ a.chzn-single{
 	max-width:200px;
 }
 
+.map-row{
+	display: block;
+	margin:0 auto;
+}
+
 @media only screen and (min-width: 520px){
 	.professorships-headline{
 		font-size: 60px;
@@ -1747,6 +1799,11 @@ a.chzn-single{
 		height:350px;
 		background-position:33% 33%;
 	}
+
+	.mobile-block{
+		text-align: center;
+	}
+
 }
 
 @media only screen and (min-width: 768px){
@@ -1803,6 +1860,15 @@ a.chzn-single{
 		padding-right: 8px;
 	}
 
+	.mobile-block{
+		text-align: center;
+	}
+
+	.mobile-no-margin{
+		margin-left:initial;
+		margin-right:initial;
+	}
+
 
 	/**** TYPOGRAPHY ****/
 	h1{
@@ -1851,8 +1917,13 @@ a.chzn-single{
 		margin-bottom:25px;
 	}
 
+	h3.purple .contact-name{
+		margin-bottom: 0px !important;
+	}
+
 	.contact-name{
 		padding-top:30px;
+		margin-bottom: 0px;
 	}
 
 	.contact-info{
@@ -1910,6 +1981,9 @@ a.chzn-single{
 
 
 	/**** NAVIGATION ****/
+	.navbar{
+		min-height:80px;
+	}
 	.navbar-nav li a{
 		font-size:16px;
 		color:#FFF;
@@ -2128,17 +2202,11 @@ a.chzn-single{
 	}
 
 	.timeline-master-bullet{
-		width:40px;
-		height:40px;
-		background-color:#FFF;
-		border:5px solid #7D5CC6;
-		border-radius:50%;
-		/*float:left;*/
-		/*margin-left:-21px;*/
-		transition: ease .5s;
-		/*color:#FFF;*/
-		display:inline-block;
-		z-index:3000;
+		display:none;
+	}
+
+	.timeline-container{
+		display:block;
 	}
 
 
@@ -2218,6 +2286,7 @@ a.chzn-single{
 		display: block;
 		margin-right: 0px;
 		margin-left: 0px;
+		text-align: left;
 	}
 
 	/**** TYPOGRAPHY ****/
@@ -2310,7 +2379,7 @@ a.chzn-single{
 		margin:0;
 		padding:0;
 		background-color:#000;
-		background:url(../img/projects/newera-cover2.jpg);
+		background:url(../img/projects/newera-cover.jpg);
 		background-position:50% 20%;
 		background-size:cover;
 		background-repeat:no-repeat;
